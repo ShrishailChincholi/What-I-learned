@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+div{
+    background-color: black;
+    height: 60px;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#logo{
+    color: rgb(192, 99, 24);
+    padding-left: 20px;
+}
+
+button{
+    background-color: rgb(232, 111, 5);
+    margin-right: 200px;
+}

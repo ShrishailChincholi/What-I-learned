@@ -1,1 +1,0 @@
-alert(" wellcome to my first job ")

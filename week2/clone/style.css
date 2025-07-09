@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head1{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(255, 82, 0);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.log{
+      
+}
+
+.head-name ul li{
+    text-decoration: none;
+    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 21px;
+    font-weight:bolder;
+}
+
+#box1{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 12px 16px;
+    
+}
+
+#box2{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.hero{
+    height: 400px;
+    width: auto;
+    background-color: rgb(255, 82, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.left-img{
+    height: 450px;
+    width: 250px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+
+.right-img{
+    height: 450px;
+    width: 250px;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+.heading{
+    text-align: center;
+    left: auto;
+    width: 60%;
+    font-size: 48px;
+    font-weight: 600;
+    color: rgb(255, 255,255);
+    line-height: 56px;
+    padding-left: 12px;
+    margin: auto;
+    padding-top: 300px;
+}
+
+
+.inp-addres{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 48px;
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-right: 20px;
+}
+
+.i1{
+    color:  rgb(255, 82, 0);
+    height: 25px;
+    width: 28px;
+    padding-left: 10px;
+}

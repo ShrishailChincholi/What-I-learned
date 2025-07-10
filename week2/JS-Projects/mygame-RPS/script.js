@@ -1,0 +1,1 @@
+alert("Explore the Game Dimension")

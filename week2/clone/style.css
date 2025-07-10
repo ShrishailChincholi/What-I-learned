@@ -396,4 +396,135 @@
    margin-left: 5px;
 }
 
+/* scroll bar  */
+.scroll-s{
+    background-color: rgb(245, 246, 246);
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-left: 151px;
+    margin-right: 151px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;/* hide the scroll bar*/
+    gap: 20px;
+}
 
+.child-s{
+    height: 388px;
+    width: 388px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.test{
+    height: 59px;
+    width: 1210px;
+    font-size: 22px;
+    font-weight: 600px;
+    color: rgba(2, 6, 12, 0.92);;
+    margin-bottom: -12px;
+        margin-top: 100px;
+}
+
+/* banner */
+.appbanner{
+    background-image: url('App_download_banner.avif');
+    width: 1510px;
+    height: 290px;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+/* para scroll bar */
+.paranet{
+    height:350px ;
+    width: 1058px;
+    background-color: white;
+    margin-left: 222px;
+    margin-right: 222px;
+    margin-top: 80px;
+}
+
+h2{
+    height:26px ;
+    width: 868px;
+    font-weight: 800;
+}
+
+.warp{
+    height: 240px;
+    width: 868px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    flex-direction: column;
+    
+    
+}
+
+a{
+    color: #02060c;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border: 1.5px solid rgba(2,6,12,0.15);
+    border-radius: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    /* width: calc(25% - 32px);
+    gap: 14px; */
+}
+
+
+
+/* footer css */
+.footer1{
+    height: 451px;
+    width: 1515px;
+    background-color:rgb(240, 240, 245) ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    column-gap: 6%;
+    
+}
+ul li{
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.swiggy{
+    height: 355px;
+    width: 257px;
+    
+    
+}
+
+.ul1,.ul2,.ul3,.ul4{
+    height: 408px;
+    width: 128px;
+}
+
+
+.ulbtn button{
+    height: 32px;
+    width: 100%;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    background-color:rgb(240, 240, 245);
+    background: unset;
+}
+
+.ulbtn{
+    text-align: center;
+    padding-left: 20px;
+}

@@ -209,3 +209,93 @@
 .child-div{
     background-size:contain;
 }
+
+/* new */
+/* grosories part  raju created  */
+
+
+.grosories-main{
+    width: 992px;
+    height: 298px;
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap ;
+    overflow-x: auto ;
+    overflow-y: hidden;
+    margin-left: 212px;
+     scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;/* hide the scroll bar*/
+
+}
+
+.big{
+    margin-top: 40px;
+    display: flex;
+    background-color: white;
+}
+
+.sub{
+    padding-top:12px ;
+    width: 144px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+}
+
+.gromain1{
+    background-color: white;
+    width: 184px;
+    height: 240px;
+    justify-content: end;
+}
+
+.grochild{
+    background-color: whitesmoke;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.child-raju{
+    width: 144px;
+    height: 180px;
+    background-size: cover;
+     
+}
+
+
+/* complete */
+.grotext{
+    position: fixed;
+    margin-bottom: 20px;
+    color: black;
+    font-family: arial;
+    font-size: 24px;
+    font-weight: 600;
+    width: 330px;
+    height: 26px;
+}
+
+/* scroller bar */
+.main2{
+    height: 408px;
+    width: 328px;
+   
+}
+
+.main3{
+    height: 380px;
+    width: 355px;
+    border-radius: 8px;
+    border: 1px solid antiquewhite;
+    
+}
+
+.img1-s{
+    border-radius: 8px;
+    height: 170px;
+    width: 350px;
+    background-image: url("chandini-chowk-restaurant-in-dubai-0ybmlde8u0b4tuz2.jpg");
+    background-size: contain;
+    
+}

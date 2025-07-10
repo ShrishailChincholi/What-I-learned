@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #edf2fb;
+    ;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #5C677D;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.game {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #edf2fb;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*  */
+.rock {
+    height: 200px;
+    width: 200px;
+}
+
+.paper {
+    height: 200px;
+    width: 200px;
+}
+
+.scissors {
+    height: 200px;
+    width: 200px;
+}
+
+/* img size set */
+.rock img {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.paper img {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.scissors img {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: #edf2fb;
+}
+
+
+.msg {
+    height: 50px;
+    width: auto;
+    background-color: #c1d3fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 10px 600px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+footer {
+    color: white;
+    height: 200px;
+    width: 100%;
+    background-color: #979dac;
+    text-align: center;
+}
+
+footer h2{
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}

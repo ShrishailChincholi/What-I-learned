@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="023feae4-1893-4403-beca-d2002ae2a67c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/week1/What-I-learned" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/JS-Projects/mygame-RPS/img/paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/JS-Projects/mygame-RPS/img/rock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/JS-Projects/mygame-RPS/img/scissors.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2zjU4QKgqyn8817nGzh48z8QAUs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="023feae4-1893-4403-beca-d2002ae2a67c" name="Changes" comment="" />
+      <created>1752243785338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752243785338</updated>
+    </task>
+    <servers />
+  </component>
+</project>

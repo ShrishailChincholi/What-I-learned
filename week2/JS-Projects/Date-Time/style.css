@@ -1,0 +1,29 @@
+.main1{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(124, 131, 128);  
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-items: start;
+    flex-direction: column;
+   
+}
+
+.main{
+      height: 105px;
+    width: 307px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.time{
+        font-size: 40px;
+        color: #0fff04;
+}

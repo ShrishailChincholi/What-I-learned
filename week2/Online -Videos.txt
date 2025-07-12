@@ -1,0 +1,13 @@
+Funcations  of javaScripts  Refer Video
+
+https://youtu.be/P0XMXqDGttU?si=1e2JcLs-o_jV1-DN
+
+Dom and  Events in JavaScript Refer Video
+
+Dom:-https://youtu.be/7zcXPCt8Ck0?si=neykzvHpWncx1r9G
+
+Events:-https://youtu.be/_i-uLJAh79U?si=wXKXvXco5AlbtFog
+
+Assignments of this are topics name is 
+
+Assign1.js

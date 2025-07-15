@@ -16,3 +16,5 @@ box.addEventListener("click",()=>{
     let color = randomColor()
     rgb.innerText=` ${color};`;
 })
+
+// html and css : week2/Js-projects/mini-pro

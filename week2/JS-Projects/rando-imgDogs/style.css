@@ -1,0 +1,44 @@
+.main{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(171, 215, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+h4{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+
+}
+img{
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    object-fit:fill;
+    background-color: blueviolet;
+    border-radius: 10px;
+  
+}
+.dogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    height: 50px;
+    font-size: 1.3rem;
+    width: 100px;
+    border-radius: 10px;
+    border: none;   
+}
+
+button:active{
+    background-color: rgb(141, 147, 152);
+}

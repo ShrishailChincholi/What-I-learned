@@ -1,0 +1,15 @@
+## 📺 Reference Video
+
+- I referred to the following YouTube video for this project:
+  [React Offline Video Player – YouTube](https://youtu.be/RGKi6LSPDLU?si=2zYNGuIQ0cJU_w50)
+
+## 🧠 Key Learnings from the Video
+
+- Learned how to create a React-based video player interface.
+- Understood handling offline media content with React.
+- Applied local file access techniques for media playback.
+- Explored basic React hooks and component structuring.
+
+## 🙏 Credits
+
+- Video credit: [CodeWithHarry](https://youtu.be/RGKi6LSPDLU?si=2zYNGuIQ0cJU_w50)

@@ -6,8 +6,10 @@ import "./style.css";
 function App() {
   return(
     <div className='Todo-Container'>
-      <Header />
-      <TodoIteam />
+      <Header  />
+      <TodoIteam text="Eat"/>
+      <TodoIteam text="Go to colleage"/>
+      <TodoIteam text="Learning Props"/>
       <Button />
     </div>
   )

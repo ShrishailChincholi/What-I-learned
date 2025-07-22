@@ -1,16 +1,35 @@
-.Todo-Container{
+body {
+    background-color: rgb(32, 33, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Todo-Container {
     width: 300px;
-    padding: 10px;
+    padding: 10px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 10px;
 }
 
-.H1{
-    
-}
 
-.Iteam-todo{
+.Iteam-todo {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+}
+
+.span{
+   margin-left: 5px;
 }

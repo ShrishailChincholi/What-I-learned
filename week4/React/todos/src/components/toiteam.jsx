@@ -6,7 +6,7 @@ const TodoIteam = () => {
         <li className="Iteam-todo">
             <span>
                 <input type="checkbox" />
-                <span>Eat</span>
+                <span className="span">Eat</span>
               
             </span>
               <p>...</p>

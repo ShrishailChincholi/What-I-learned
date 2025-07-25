@@ -14,7 +14,7 @@ function randomColor() {
 box.addEventListener("click",()=>{
     
     box.style.backgroundColor = randomColor();
-    let color = randomColor()
+    let color = randomColor();
     p.innerText=` ${color};`;
-})
+});
 

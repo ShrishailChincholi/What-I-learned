@@ -1,10 +1,6 @@
 const bcrypt = require("bcryptjs");
 const User = require("../modules/User");
 
-const session = require("express-session");
-
-
-
 const login = async (req, res) => {
     const { username, password } = req.body
 

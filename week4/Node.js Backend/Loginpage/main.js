@@ -58,6 +58,17 @@ app.get("/logout", (req, res) => {
 });
 
 
+// All User to feacth from the DB
+app.get("/admin", async(req,res)=>{
+    try {
+    const users = await User.find(); // Fetch all users from MongoDB
+    res.render("admin", { users }); // Pass data to EJS
+  } catch (err) {
+    res.send("Error fetching data");
+}}
+);
+
+
 app.listen(8080,()=>{
     console.log("Server is running on http://localhost:8080");
 })

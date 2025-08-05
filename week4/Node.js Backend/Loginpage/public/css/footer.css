@@ -1,0 +1,72 @@
+/* Footer Styling */
+footer {
+    background: #2E7D32; /* Dark green */
+    color: white;
+    padding: 30px 20px 10px;
+    font-family: Arial, sans-serif;
+    margin-top: auto; /* pushes footer to bottom */
+    flex-shrink: 0;
+}
+
+/* Footer container with equal sections */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-container h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Social icons */
+.footer-right .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-right .social-icons img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.footer-right .social-icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+

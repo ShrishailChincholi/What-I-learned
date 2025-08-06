@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add New Member</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Add New Member</h2>
+    <form action="/index" method="post" enctype="multipart/form-data">
+      <div class="form-grid">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="tel" name="Number" placeholder="Mobile" required>
+
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="ID" placeholder="Membership No" required>
+
+        <input type="text" name="Address1" placeholder="Present Address" required>
+        <input type="text" name="Address2" placeholder="Native Address" required>
+
+        <input type="text" name="Home" placeholder="Home Parish">
+        <input type="text" name="Home2" placeholder="Home Diocese">
+
+        <input type="text" name="Blood" placeholder="Blood Group">
+        <input type="text" name="map" placeholder="Google Map Address">
+
+        <select name="membership" required>
+          <option value="">Member</option>
+          <option value="basic">Basic</option>
+          <option value="premium">Premium</option>
+          <option value="gold">Gold</option>
+        </select>
+
+        <label>Family Picture: <input type="file" name="fimg" accept="image/*"></label>
+        <label>Profile Picture: <input type="file" name="pimg" accept="image/*"></label>
+
+        <input type="password" placeholder="Password" name="password" required>
+      </div>
+      <button type="submit">Add Member</button>
+    </form>
+  </div>
+
+<button class="btn"><a href="/alluser">ALL USER</a></button>
+  </div>
+</body>
+</html>

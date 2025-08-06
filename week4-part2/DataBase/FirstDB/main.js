@@ -18,6 +18,7 @@ app.get('/', async (req, res) => {
     res.render('index');
 });
 
+// POST DATA
 app.post("/index",
     upload.fields([
         { name: "fimg", maxCount: 1 },
@@ -26,6 +27,7 @@ app.post("/index",
 
 );
 
+// Show the user
 app.get("/alluser", async (req, res) => {
     try {
         const members = await DATABASE.find();

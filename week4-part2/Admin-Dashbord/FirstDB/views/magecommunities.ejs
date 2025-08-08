@@ -1,0 +1,35 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magecommunities</title>
+    <link rel="stylesheet" href="/css/magecom.css">
+</head>
+
+<body> -->
+    <h1>Manage Categories</h1>
+    <form method="post" action="/magecommunities">
+        <table border="1">
+            <tr>
+                <td><input type="text" name="name" placeholder="New Category Name" required /></td>
+                <td>
+                    <select name="categoryType">
+                        <option value="Subscription">Subscription</option>
+                        <option value="Annual Fee/Donation">Annual Fee/Donation</option>
+                    </select>
+                </td>
+                <td><input type="checkbox" name="isActive" /></td>
+                <td><input type="text" name="minAmount" placeholder="Min Amount" /></td>
+                <td><input type="text" name="remarks" placeholder="Remarks" /></td>
+                <td><button type="submit">Add</button></td>
+            </tr>
+        </table>
+    </form>
+
+    
+
+<!-- </body>
+
+</html> -->

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Communities / Committees</title>
+  <link rel="stylesheet" href="/css/communitie.css">
+</head>
+
+<body>
+  <h2>Communities / Committees</h2>
+
+  <div>
+    <h3>Add New Community</h3>
+    <form method="post" action="/communities">
+      <div style="display: flex; gap: 10px; align-items: center;">
+        <input name="name" type="text" placeholder="Enter community or committee name" style="flex: 1; padding: 8px;"
+          required>
+        <button type="submit" style="padding: 8px 16px;">Add</button>
+      </div>
+    </form>
+
+    <div>
+      <table>
+        <tr>
+          <th>Communities Name</th>
+        </tr>
+
+        <% datacomm.forEach(datacomms=>{ %>
+          <tr>
+            <td>
+              <%=datacomms.name%>
+            </td>
+          </tr>
+          <%})%>
+      </table>
+    </div>
+
+</body>
+
+</html>

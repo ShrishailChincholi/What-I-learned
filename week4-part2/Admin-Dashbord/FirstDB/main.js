@@ -37,6 +37,31 @@ app.get("/alluser", async (req, res) => {
     }
 });
 
+// Geting Communities
+app.get("/communities", async (req, res) => {
+
+    try {
+        const datacomm = await CommunitiesDB.find();
+        res.render("communities", { datacomm });
+    } catch (error) {
+        res.status(500).send("Error retrieving members");
+    }
+
+})
+
+// Dashbord
+app.get("/dashbord", (req, res) => {
+    res.render("dashbord")
+})
+
+
+app.get("/magecommunities", (req, res) => {
+    res.render("magecommunities")
+})
+
+app.post("/magecommunities",community)
+app.post("/communities", commData)
+
 app.listen(5000,()=>{
     console.log("Server is running on http://localhost:5000");
 });

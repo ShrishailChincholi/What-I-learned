@@ -4,6 +4,7 @@ const app = express();
 const ConnectDatabase = require('./db/connection');
 const memberRejData = require('./router/memberData');
 const multer = require("multer");
+const { render } = require('ejs');
 const DATABASE = require('./modules/data');
 
 // Middleware
@@ -13,6 +14,15 @@ app.use(express.static("public"));
 app.set('view engine','ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
+// Multer config for Uplods photo database
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => cb(null, "uploads/"),
+    filename: (req, file, cb) => cb(null, Date.now() + path.extname(file.originalname))
+});
+const upload = multer({ storage });
+
+ConnectDatabase();
 
 app.get('/', async (req, res) => {
     res.render('index');
@@ -54,12 +64,15 @@ app.get("/dashbord", (req, res) => {
     res.render("dashbord")
 })
 
-
+// Magecommunite Geting routes
 app.get("/magecommunities", (req, res) => {
     res.render("magecommunities")
 })
 
+// Magecommunite Post routes
 app.post("/magecommunities",community)
+
+// Post Communites
 app.post("/communities", commData)
 
 app.listen(5000,()=>{

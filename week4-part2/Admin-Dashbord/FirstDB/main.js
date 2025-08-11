@@ -70,7 +70,17 @@ app.get("/magecommunities", (req, res) => {
 })
 
 // Magecommunite Post routes
-app.post("/magecommunities",community)
+app.post("/magecommunities",community);
+app.get("/magecommunities", async(req, res) => {
+    // res.render("")
+       try {
+        const magecomm = await mangaecommunity.find();
+        res.render("magecommunities", { magecomm });
+    } catch (error) {
+        res.status(500).send("Error retrieving members");
+    }
+
+})
 
 // Post Communites
 app.post("/communities", commData)

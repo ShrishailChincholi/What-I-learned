@@ -28,7 +28,38 @@
         </table>
     </form>
 
-    
+    <!-- Feacyhing Data From DB -->
+
+    <% magecomm.forEach(magecomms => { %>
+<form method="post" action="/magecommunities">
+    <table border="1">
+        <tr>
+            <td>
+                <input type="text" name="name" value="<%= magecomms.name %>" placeholder="New Category Name" required />
+            </td>
+            <td>
+                <select name="categoryType">
+                    <option value="Subscription" <%= magecomms.categoryType === "Subscription" ? "selected" : "" %>>Subscription</option>
+                    <option value="Annual Fee/Donation" <%= magecomms.categoryType === "Annual Fee/Donation" ? "selected" : "" %>>Annual Fee/Donation</option>
+                </select>
+            </td>
+            <td>
+                <input type="checkbox" name="isActive" <%= magecomms.isActive ? "checked" : "" %> />
+            </td>
+            <td>
+                <input type="text" name="minAmount" value="<%= magecomms.minAmount %>" placeholder="Min Amount" />
+            </td>
+            <td>
+                <input type="text" name="remarks" value="<%= magecomms.remarks %>" placeholder="Remarks" />
+            </td>
+            <td>
+                <button type="submit">Save</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<% }) %>
+
 
 <!-- </body>
 

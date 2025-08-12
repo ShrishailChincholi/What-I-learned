@@ -27,3 +27,7 @@ src/
 │
 ├── App.jsx
 └── index.js
+
+
+## 📸 Navbar Preview
+![home Screenshot](screenshots/home.png)

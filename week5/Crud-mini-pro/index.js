@@ -2,9 +2,12 @@ const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 const productrouters = require('./routes/product.route')
+const cors = require('cors');
+
 
 // Used for json fromat data entry
 app.use(express.json());
+app.use(cors());
 // used for Qurayes forms
 app.use(express.urlencoded({ extended: false }))
 

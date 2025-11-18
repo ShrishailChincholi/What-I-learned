@@ -2,7 +2,8 @@ const express = require("express");
 const conectdb = require("./config/db");
 const session = require("express-session");
 const cors = require("cors");
-const login_rigste = require("./routes/login& register");  
+const login_rigste = require("./routes/login& register");
+const productroutes = require("./routes/product.routes")  
 
 const app = express();
 

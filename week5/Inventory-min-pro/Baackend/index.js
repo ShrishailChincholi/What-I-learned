@@ -41,6 +41,7 @@ app.use(
 
 // Routes
 app.use("/", login_rigste);
+app.use("/admin",productroutes)
 
 
 // Admin check

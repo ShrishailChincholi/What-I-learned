@@ -20,6 +20,7 @@ function Login() {
     setError("");
 
     try {
+      // fetch Backend Api Into frontend
       const res = await fetch("http://localhost:8080/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -34,7 +35,7 @@ function Login() {
       }
 
       localStorage.setItem("token", data.token);
-
+      // Check User Admin Or User
       if (data.role === "admin") {
         navigate("/admin-dashboard");
       } else {

@@ -1,4 +1,6 @@
 import { useState } from "react";
+
+// AddProduct funcation
 function AddProduct() {
   const [form, setForm] = useState({
     name: "",

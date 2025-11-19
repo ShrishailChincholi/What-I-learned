@@ -1,10 +1,20 @@
-export default function AdminPage() {
+import Navbar from "./navbar";
+import { Outlet } from "react-router-dom";
+
+function AdminDashboard() {
   return (
-    <div
-    >
-      <h1 style={{ fontSize: "40px", color: "#1e40af" }}>
-        I am the Admin Page
-      </h1>
+    <div style={{ display: "flex" }}>
+
+      {/* Sidebar */}
+      <Navbar />
+
+      {/* Right section where pages load */}
+      <div style={{ flex: 1, padding: "20px" }}>
+        <Outlet />   {/* 👈 IMPORTANT */}
+      </div>
+
     </div>
   );
 }
+
+export default AdminDashboard;

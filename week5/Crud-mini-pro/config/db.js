@@ -1,4 +1,4 @@
-
+// connection DB
 const coonectdb = async ()=>{
     try {
         await mongoose.connect("mongodb+srv://USERNAME:PASSWORD@CLUSTER_NAME.mongodb.net/DATABASE_NAME")

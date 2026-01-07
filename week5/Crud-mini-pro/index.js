@@ -6,11 +6,14 @@ const cors = require('cors');
 
 
 // Used for json fromat data entry
+// Middleware
 app.use(express.json());
 app.use(cors());
-// used for Qurayes forms
 app.use(express.urlencoded({ extended: false }))
 
+
+
+// Routes
 app.use("/api/pro", productrouters)
 
 app.get('/', (req, res) => {
